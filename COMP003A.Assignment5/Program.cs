@@ -62,7 +62,7 @@ namespace COMP003A.Assignment5
             }
                 return topTriangle;
             ///<summary>
-            ///Creates a substring of the last line from the previous loop. It then loops itself substringing one less character at a time until it reaches 1.
+            ///Creates a substring from the last line of the previous loop. It then loops itself, substringing one less character at a time until it reaches 1.
             /// </summary>
         }
 
@@ -80,7 +80,7 @@ namespace COMP003A.Assignment5
             string characterInfo=($"I am {characterName}, and I am {Convert.ToString(AgeCalculator(birthYear))} years old");
             Console.WriteLine(characterInfo);
             return characterInfo;
-            ///<summary> After inputing a name and birthyear, this will give a output a character introducing themselves.</summary>
+            ///<summary> After inputing a name and birthyear, this will give an output of a character introducing themselves.</summary>
         }
 
 
